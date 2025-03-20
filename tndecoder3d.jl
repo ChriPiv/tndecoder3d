@@ -2,7 +2,7 @@ module TNDecoder3D
 
 using ITensors
 using PyCall
-@static if ITensors.version() ≥ v"0.8.0"
+@static if ITensors.version() ≥ v"0.7.0"
     using ITensorMPS
 end
 

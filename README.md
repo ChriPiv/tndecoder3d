@@ -2,7 +2,7 @@ This repository contains source code used to generate the data for figure 1 of t
 
 The code is encapsulated in a Julia package which can be loaded by including the file `tndecoder3d.jl`.
 You will need a working Julia environment (version 1.8 was used in the paper) with the packages `ITensors` and `PyCall` installed.
-If you're using a newer version of ITensors (>=0.8), you will also require the `ITensorMPS` package.
+If you're using a newer version of ITensors (>=0.7), you will also require the `ITensorMPS` package.
 Following Python packages are used through PyCall and must be pre-installed:
 
 * stim
